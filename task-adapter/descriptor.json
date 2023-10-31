@@ -1,6 +1,26 @@
 {
   "name": "task-adapter",
-  "input": [],
-  "output": [],
-  "configurations": []
+  "input": [
+    {
+      "name": "parameters",
+      "data_type": "JSONobject",
+      "data_format": "json"
+    },
+    {
+      "name": "data",
+      "data_type": "AHProfile",
+      "data_format": "csv"
+    }
+  ],
+  "output": [
+    {
+      "name": "result",
+      "data_type": "JSONObject",
+      "data_format": "json"
+    }
+  ],
+  "configurations": [
+    "default",
+    "nscc"
+  ]
 }
